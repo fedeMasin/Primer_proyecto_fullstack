@@ -1,5 +1,21 @@
 #header{
     background-image: url(../img/slider-1.png);
-    height: 500px;
-    
+    background-position: center center;
+    background-size: cover;    
+}
+#header nav ul{
+    list-style: none;
+}
+#navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#lista__desordenada{
+  display: flex;
+  flex-direction: row;
+}
+#lista__desordenada li a{
+    text-decoration: none;
+    margin: 10px 15px;
 }
