@@ -1,21 +1,44 @@
+body{
+    margin: 0;
+}
+h1{
+    font-family:'Poppins', sans-serif;
+    font-size: 48px;
+}
 #header{
     background-image: url(../img/slider-1.png);
     background-position: center center;
-    background-size: cover;    
+    background-size: cover;
+    height: 100vh;         
 }
-#header nav ul{
-    list-style: none;
-}
-#navegacion{
+.barra{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E0752F;     
+}
+#logo img{
+    margin: 33px 100px;    
 }
 #lista__desordenada{
-  display: flex;
-  flex-direction: row;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
 }
-#lista__desordenada li a{
+#lista__desordenada li a{    
     text-decoration: none;
-    margin: 10px 15px;
+    margin: 15px 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#lista__desordenada:last-of-type{
+    margin-right: 110.5px;
+}    
+.p__hero{
+    color: #FFFFFF;
 }
