@@ -5,6 +5,7 @@ h1{
     font-family:'Poppins', sans-serif;
     font-size: 48px;
 }
+
 #header{
     background-image: url(../img/slider-1.png);
     background-position: center center;
@@ -21,14 +22,14 @@ h1{
 #logo img{
     margin: 33px 100px;    
 }
-#lista__desordenada{
+.lista__desordenada{
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     
 }
-#lista__desordenada li a{    
+.lista__desordenada li a{    
     text-decoration: none;
     margin: 15px 40px;
     color: #FFFFFF;
@@ -36,9 +37,15 @@ h1{
     font-family: 'Roboto', sans-serif;
     
 }
-#lista__desordenada:last-of-type{
+.lista__desordenada:last-of-type{
     margin-right: 110.5px;
 }    
-.p__hero{
+.header__p{
     color: #FFFFFF;
+}
+.btn{
+    text-decoration: none;
+    background-color: #E0752F;
+    padding: 10px 25px;
+    
 }
